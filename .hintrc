@@ -13,6 +13,12 @@
     ],
     "axe/language": "off",
     "no-inline-styles": "off",
-    "manifest-file-extension": "off"
+    "manifest-file-extension": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "frame-title": "off"
+      }
+    ]
   }
 }
