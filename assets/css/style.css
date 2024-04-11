@@ -38,7 +38,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 body.theme-blue {
-  --theme-color: #3e66f3;
+  --theme-color: #5d7ffc;
   background-color: #f8faff;
 }
 iframe {
