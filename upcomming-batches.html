@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/up.css">
+    <script src="assets/js/table.js"></script>
 </head>
 
 <body class="gradient-body">
@@ -150,112 +152,123 @@
                     </div>
                 </div>
                 <!-- Tabs content -->
-                <div class="row border rounded px-0 mb-5">
 
-                    <ul id="trainingTypeTabs"
-                        class="nav nav-tabs mb-3 border-bottom bg-light-grey px-3 pt-3 new-bacthes-timetable text-white flex-nowrap"
-                        role="tablist">
-
-                        <li class="nav-item" role="presentation">
-                            <a class="type nav-link capitalize active" data-id="1" data-bs-toggle="tab"
-                                href="#training-type-0" role="tab" aria-controls="training-type-0"
-                                aria-selected="true">Online Training</a>
-                        </li>
-
-                        <li class="nav-item" role="presentation">
-                            <a class="type nav-link capitalize" data-id="3" data-bs-toggle="tab" href="#training-type-2"
-                                role="tab" aria-controls="training-type-2" aria-selected="false" tabindex="-1">Classroom
-                                Training</a>
-                        </li>
-                    </ul>
-
-                    <div class="tab-content px-0 " id="ex1-content">
-                        <div class="tab-pane fade show active" id="live-training-tab" role="tabpanel"
-                            aria-labelledby="live-training-tab"> <!--table box start-->
-                            <div id="layoutSidenav_content">
-
-                                <main>
-
-                                    <div class="container-fluid px-0 mt-2">
-                                        <div class="card mb-4 border-0">
-                                            <div class="card-header d-none">
-                                                <i class="fas fa-table me-1"></i>
-                                                Live Training Batches Timetable
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card card-margin">
+                                <div class="card-header no-border">
+                                </div>
+                                <div class="card-body pt-0">
+                                    <div class="widget-49">
+                                        <div class="widget-49-title-wrapper">
+                                            <div class="widget-49-date-primary">
+                                                <span class="widget-49-date-day">22</span>
+                                                <span class="widget-49-date-month">May</span>
                                             </div>
-                                            <div class="card-body p-0">
-                                                <div id="datatablesSimple_wrapper" class="dataTables_wrapper no-footer">
-                                                    <table id="datatablesSimple" class="flex-nowrap dataTable no-footer"
-                                                        role="grid" aria-describedby="datatablesSimple_info">
-                                                        <thead>
-                                                            <tr role="row">
-                                                                <th class="srno_column sorting sorting_asc" tabindex="0"
-                                                                    aria-controls="datatablesSimple" rowspan="1"
-                                                                    colspan="1"
-                                                                    aria-label="s no: activate to sort column descending"
-                                                                    aria-sort="ascending" style="width: 120px;">Sr. No
-                                                                </th>
-                                                                <th class="course_column sorting" tabindex="0"
-                                                                    aria-controls="datatablesSimple" rowspan="1"
-                                                                    colspan="1"
-                                                                    aria-label="Course Name: activate to sort column ascending"
-                                                                    style="width: 288px;">Course Name</th>
-                                                                <th class="faculty_column sorting" tabindex="0"
-                                                                    aria-controls="datatablesSimple" rowspan="1"
-                                                                    colspan="1"
-                                                                    aria-label="Faculty: activate to sort column ascending"
-                                                                    style="width: 177px;">Faculty</th>
-                                                                <th class="date_column sorting" tabindex="0"
-                                                                    aria-controls="datatablesSimple" rowspan="1"
-                                                                    colspan="1"
-                                                                    aria-label="Date: activate to sort column ascending"
-                                                                    style="width: 205px;">Date</th>
-                                                                <th class="time_column sorting_disabled" rowspan="1"
-                                                                    colspan="1" aria-label="Time" style="width: 137px;">
-                                                                    Time</th>
-                                                            </tr>
-                                                        </thead>
-
-                                                        <tbody>
-
-                                                            <tr class="ash odd">
-                                                                <td class="srno_column sorting_1">1</td>
-                                                                <td class="course_column">Automation Testing</td>
-                                                                <td class="faculty_column">Mr. Jayesh</td>
-                                                                <td class="date_column">20 May</td>
-                                                                <td class="time_column">7:30 AM (IST)</td>
-                                                            </tr>
-                                                            <tr class="white even">
-                                                                <td class="srno_column sorting_1">2</td>
-                                                                <td class="course_column">AWS with DevOps</td>
-                                                                <td class="faculty_column">Mr. Rameshwar</td>
-                                                                <td class="date_column">announced soon</td>
-                                                                <td class="time_column">0:00 AM (IST)</td>
-                                                            </tr>
-                                                            <tr class="white even">
-                                                                <td class="srno_column sorting_1">3</td>
-                                                                <td class="course_column">Manual Testing</td>
-                                                                <td class="faculty_column">Mr. Krunal</td>
-                                                                <td class="date_column">announced soon</td>
-                                                                <td class="time_column">0:00 AM (IST)</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
+                                            <div class="widget-49-meeting-info">
+                                                <span class="widget-49-pro-title">Automation Testing</span>
+                                                <span class="widget-49-meeting-time">07.30 AM to 08.30 Hrs</span>
+                                                <span class="widget-49-meeting-time">Trainer : Mr. Jayesh</span>
                                             </div>
                                         </div>
+                                        <ol class="widget-49-meeting-points">
+                                            
+                                        </ol>
+                                        <div class="widget-49-meeting-action">
+                                            <a href="software-testing.html" class="btn btn-sm btn-flash-border-primary">View Details</a>
+                                        </div>
                                     </div>
-                                </main>
+                                </div>
                             </div>
-                            <!--table box close-->
                         </div>
-
+                        <div class="col-lg-4">
+                            <div class="card card-margin">
+                                <div class="card-header no-border">
+                                </div>
+                                <div class="card-body pt-0">
+                                    <div class="widget-49">
+                                        <div class="widget-49-title-wrapper">
+                                            <div class="widget-49-date-primary">
+                                                <span class="widget-49-date-day">27</span>
+                                                <span class="widget-49-date-month">May</span>
+                                            </div>
+                                            <div class="widget-49-meeting-info">
+                                                <span class="widget-49-pro-title">Manual Testing</span>
+                                                <span class="widget-49-meeting-time">08.30 PM to 09.30 Hrs</span>
+                                                <span class="widget-49-meeting-time">Trainer : Mr. Krunal</span>
+                                            </div>
+                                        </div>
+                                        <ol class="widget-49-meeting-points">
+                                            
+                                        </ol>
+                                        <div class="widget-49-meeting-action">
+                                            <a href="software-testing.html" class="btn btn-sm btn-flash-border-primary">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card card-margin">
+                                <div class="card-header no-border">
+                                </div>
+                                <div class="card-body pt-0">
+                                    <div class="widget-49">
+                                        <div class="widget-49-title-wrapper">
+                                            <div class="widget-49-date-primary">
+                                                <span class="widget-49-date-day"></span>
+                                                <span class="widget-49-date-month"></span>
+                                            </div>
+                                            <div class="widget-49-meeting-info">
+                                                <span class="widget-49-pro-title">Devops With AWS</span>
+                                                <span class="widget-49-meeting-time">to be announce</span>
+                                                <span class="widget-49-meeting-time">Trainer : Mr. Ram</span>
+                                            </div>
+                                        </div>
+                                        <ol class="widget-49-meeting-points">
+                                            
+                                        </ol>
+                                        <div class="widget-49-meeting-action">
+                                            <a href="aws-devops.html" class="btn btn-sm btn-flash-border-primary">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card card-margin">
+                                <div class="card-header no-border">
+                                </div>
+                                <div class="card-body pt-0">
+                                    <div class="widget-49">
+                                        <div class="widget-49-title-wrapper">
+                                            <div class="widget-49-date-primary">
+                                                <span class="widget-49-date-day"></span>
+                                                <span class="widget-49-date-month"></span>
+                                            </div>
+                                            <div class="widget-49-meeting-info">
+                                                <span class="widget-49-pro-title">Angular 14+</span>
+                                                <span class="widget-49-meeting-time">To be announce</span>
+                                                <span class="widget-49-meeting-time">Trainer : Mr. Akshay</span>
+                                            </div>
+                                        </div>
+                                        <ol class="widget-49-meeting-points">
+                                            
+                                        </ol>
+                                        <div class="widget-49-meeting-action">
+                                            <a href="software-testing.html" class="btn btn-sm btn-flash-border-primary">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    </div>
             </div>
-        </div>
     </section>
     <!-- Latest Cource Section Start -->
-    
+
     <!-- Footer Section Start -->
     <footer class="footer-wrapper footer-layout2 bg-transparent">
         <div class="widget-area">
@@ -389,6 +402,8 @@
     <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/main.js"></script>
+    
+    
 </body>
 
 </html>
